@@ -7,4 +7,5 @@ Here you will find data and description of exercises that we will be doing durin
 * WFS:
   * [INSPIRE WFS SH management units ALKIS](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=8626da70-c59c-4139-abbe-0b638f9713ad)
 * WMS:
-  * [INSPIRE WMS SH building – 2D ALKIS (display service)](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=775c9ae4-13e4-49a2-a86b-97bb9b3d4b5a)   
+  * [INSPIRE WMS SH building – 2D ALKIS (display service)](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=775c9ae4-13e4-49a2-a86b-97bb9b3d4b5a)
+  * [https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=2e38287e-5ccc-4562-a279-ae45060a5585](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=2e38287e-5ccc-4562-a279-ae45060a5585)
