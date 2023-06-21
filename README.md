@@ -8,6 +8,7 @@ Here you will find data and description of exercises that we will be doing durin
 * [Kiel Open Data](https://www.kiel.de/de/kiel_zukunft/statistik_kieler_zahlen/open_data/index.php)
 * WFS:
   * [INSPIRE WFS SH management units ALKIS](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=8626da70-c59c-4139-abbe-0b638f9713ad)
+  * [INSPIRE WFS SH parcels/land ALKIS](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=defbc2f3-52f0-4b0e-a196-908d678086b3)
 * WMS:
   * [INSPIRE WMS SH building – 2D ALKIS (display service)](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=775c9ae4-13e4-49a2-a86b-97bb9b3d4b5a)
   * [WMS_SH_DOP20col_OpenGBD - Orthophoto maps](https://advmis.geodatenzentrum.de/trefferanzeige?docuuid=2e38287e-5ccc-4562-a279-ae45060a5585)
