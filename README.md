@@ -16,7 +16,7 @@ What we will learn:
 9. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugi_n)
 10. Bonus – create an interactive web map (_qgis2web plugin_)
 
-_```**Task 1:** Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```_
+_```Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```_
 
 
 ## Useful links and resources
