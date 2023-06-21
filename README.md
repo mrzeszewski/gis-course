@@ -1,6 +1,24 @@
 # GIS course
 Here you will find data and description of exercises that we will be doing during our online and onsite meetings. 
 
+***A note:** most kinds of spatial and location based analysis can be treated as a puzzle with a more than one solution. It is often the case that our workflow, accuracy and precision of the analysis is determined by the quality of the data and its nature but it is also influenced by our skillset and even worldview. You do not need to know the fastest or best solution. In most cases you need an approximation that is good enough. Do not be afraid to experiment and choose freely from a wide array of tools and plugins at your disposal. **Have fun with GIS!***
+
+Part 1 – Simple location analysis with buffers, object selection, counting points and real-world distances
+What we will learn:
+    1. Getting data from Open Street Map (OSM) – using QuickOSM plugin in QGIS (you should already know how to do it).
+    2. Checking the data and cliping it to the area of interest (Vector/Geoprocessing tools/Clip)
+    3. Using geopackage for storing data (Sidenote – layers in the Data folder are in a legacy format called ESRI Shapefile for the purpose of compatibility only). 
+    4. Visualizing data – using different basemaps (HCMGIS plugin)
+    5. Storing basemaps and whole maps as raster files with georeferences for future use (Save as image with world file)
+    6. Transforming real world questions into GIS abstracts (an introduction to spatial analysis and the way we think about spatial problems)
+    7. Creating distance based buffers (Vector/Geoprocessing tools/Buffer)
+    8. Using buffer polygons to find points and object that fulfill various criteria with two different tools (1. Vector/Research Tool/Select by location; 2.Count points in polygon))
+    9. Create isochrones (Catchments) to approximate real-world distances (Location Lab plugin)
+    10. Bonus – create an interactive web map (qgis2web plugin)
+
+Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.  
+
+
 ## Useful links and resources
 
 * [AdV MetadatenInformationsSystem](https://advmis.geodatenzentrum.de/startseite) - a place when you can search for spatial data for Germany. This is a metadata information system (MIS) of the working group of the surveying authorities of the federal states of the Federal Republic of Germany (AdV). It enables an overview and research into the digital geodata and geodata services of the AdV member administrations.
