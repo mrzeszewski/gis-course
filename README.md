@@ -22,7 +22,12 @@ What we will learn:
 What we will learn:
 1. Searching for remote data services and reading _GetCapabities_ outputs.
 2. Attaching remote WMS and WFS services to QGIS data sources.
-3. 
+3. Using WMS as a basemap and using GetFeatureInfo function.
+4. Using WFS to download and save data.
+
+## Part 3 – Using remote data sources: WMS and WFS.
+What we will learn:
+
 
 ## Useful links and resources
 
