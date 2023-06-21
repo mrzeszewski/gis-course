@@ -1,9 +1,9 @@
 # GIS course
-Here you will find data and description of exercises that we will be doing during our online and onsite meetings. 
+Here you will find data and description of exercises that we will be doing during our online and onsite meetings. Course will be updated as we will go further according to what we will be able to do. Course will be separated into thematic parts that not neccessarily correspond to separate meetings (we can go through two meetings in on or the other way around).
 
 ***A note:** most kinds of spatial and location based analysis can be treated as a puzzle with a more than one solution. It is often the case that our workflow, accuracy and precision of the analysis is determined by the quality of the data and its nature but it is also influenced by our skillset and even worldview. You do not need to know the fastest or best solution. In most cases you need an approximation that is good enough. Do not be afraid to experiment and choose freely from a wide array of tools and plugins at your disposal. **Have fun with GIS!***
 
-Part 1 – Simple location analysis with buffers, object selection, counting points and real-world distances
+## Part 1 – Simple location analysis with buffers, object selection, counting points and real-world distances
 What we will learn:
     1. Getting data from Open Street Map (OSM) – using QuickOSM plugin in QGIS (you should already know how to do it).
     2. Checking the data and cliping it to the area of interest (Vector/Geoprocessing tools/Clip)
