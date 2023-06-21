@@ -25,8 +25,10 @@ What we will learn:
 3. Using WMS as a basemap and using GetFeatureInfo function.
 4. Using WFS to download and save data.
 
-## Part 3 – Using remote data sources: WMS and WFS.
+## Part 3 – Exploring location factors: estimating service area and population influence using geoprocessing tools. 
 What we will learn:
+1. Visual analysis and spatial density in districts (_Vector/Analysis Tools/Count points in polygons_)
+2. 
 
 
 ## Useful links and resources
