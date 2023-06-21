@@ -7,14 +7,15 @@ Here you will find data and description of exercises that we will be doing durin
 What we will learn:
 1. Getting data from Open Street Map (OSM) – using QuickOSM plugin in QGIS (_you should already know how to do it_).
 2. Checking the data and cliping it to the area of interest (_Vector/Geoprocessing tools/Clip_)
-3. Using geopackage for storing data (_Sidenote – layers in the Data folder are in a legacy format called ESRI Shapefile for the purpose of compatibility only_). 
-4. Visualizing data – using different basemaps (_HCMGIS plugin_)
-5. Storing basemaps and whole maps as raster files with georeferences for future use (_Save as image with world fil_e)
-6. Transforming real world questions into GIS abstracts (_an introduction to spatial analysis and the way we think about spatial problems_)
-7. Creating distance based buffers (_Vector/Geoprocessing tools/Buffer_)
-8. Using buffer polygons to find points and object that fulfill various criteria with two different tools (_1. Vector/Research Tool/Select by location; 2.Count points in polygon_)
-9. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugin_). You will need a free [OpenRouteService account](https://openrouteservice.org/)
-10. Bonus – create an interactive web map (_qgis2web plugin_)
+3. Deleting attributes thar are not necessary or empty (_Attribute table - Delete Fields_)
+4. Using geopackage for storing data (_Sidenote – layers in the Data folder are in a legacy format called ESRI Shapefile for the purpose of compatibility only_). 
+5. Visualizing data – using different basemaps (_HCMGIS plugin_)
+6. Storing basemaps and whole maps as raster files with georeferences for future use (_Save as image with world fil_e)
+7. Transforming real world questions into GIS abstracts (_an introduction to spatial analysis and the way we think about spatial problems_)
+8. Creating distance based buffers (_Vector/Geoprocessing tools/Buffer_)
+9. Using buffer polygons to find points and object that fulfill various criteria with two different tools (_1. Vector/Research Tool/Select by location; 2.Count points in polygon_)
+10. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugin_). You will need a free [OpenRouteService account](https://openrouteservice.org/)
+11. Bonus – create an interactive web map (_qgis2web plugin_)
 
 **```Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```**
 
