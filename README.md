@@ -13,11 +13,16 @@ What we will learn:
 6. Transforming real world questions into GIS abstracts (_an introduction to spatial analysis and the way we think about spatial problems_)
 7. Creating distance based buffers (_Vector/Geoprocessing tools/Buffer_)
 8. Using buffer polygons to find points and object that fulfill various criteria with two different tools (_1. Vector/Research Tool/Select by location; 2.Count points in polygon_)
-9. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugi_n)
+9. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugin_)
 10. Bonus – create an interactive web map (_qgis2web plugin_)
 
-_```Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```_
+**```Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```**
 
+## Part 2 – Using remote data sources: WMS and WFS.
+What we will learn:
+1. Searching for remote data services and reading _GetCapabities_ outputs.
+2. Attaching remote WMS and WFS services to QGIS data sources.
+3. 
 
 ## Useful links and resources
 
