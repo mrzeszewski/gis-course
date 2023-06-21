@@ -29,6 +29,7 @@ What we will learn:
 What we will learn:
 1. Visual analysis and spatial density in districts (_Vector/Analysis Tools/Count points in polygons_)
 2. 
+3. 
 
 
 ## Useful links and resources
