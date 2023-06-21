@@ -27,9 +27,11 @@ What we will learn:
 
 ## Part 3 – Exploring location factors: estimating service area and population influence using geoprocessing tools. 
 What we will learn:
-1. Visual analysis and spatial density in districts (_Vector/Analysis Tools/Count points in polygons_)
-2. 
-3. 
+1. Making visual analysis on objects spatial density in districts (_Vector/Analysis Tools/Count points in polygons_)
+2. Creating new attributes basing on existing values (residents for one 
+3. Creating service areas using Voronoi polygons (_Vector/Geometry Tools/Voronoi polygons_)
+4. Calculating attribute values basing on object properties and geometries (_calculate area of the feature and population density_)
+5. 
 
 
 ## Useful links and resources
