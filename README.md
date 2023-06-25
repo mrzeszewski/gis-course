@@ -32,9 +32,11 @@ What we will learn:
 2. Creating new attributes basing on existing values (_number of residents per one feature(kindergarten) using Field Calculator in Attribute Table_) 
 3. Calculating attribute values using object properties and geometries (_calculate area of the feature and population density using Field Calculator_)
 4. Creating service areas using Voronoi polygons (_Vector/Geometry Tools/Voronoi polygons_)
-5. Estimating population for service areas (Voronoi polygons) from district data
+5. Estimating population for service areas (Voronoi polygons) from district data. 
    - Cuting districts overlayed by each Voronoi polygon: _Vector/Geoprocessing tools/Intersect_
    - *Sidenote-when saving result of the intersect algorithm into Geopackage it is something necessary to delet FID column in the attribute table.
+   - It is neccessary to transfer population density and area from each district to each Voronoi polygon - we can do it by basing new values on how much of the district area is within each Voronoi. But we cannot do it through geometry predicates (Intersect/Within/Contains...etc) as they share borders. Instead we can transform polygons into points. Buy be aware that _Centroids_ are not enough as they can be positioned outside the shape (give it a try!). Instead we can use _Pole of Inaccesibility_
+   - 
    - 
 
 ## Useful links and resources
