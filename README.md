@@ -34,6 +34,8 @@ What we will learn:
 4. Creating service areas using Voronoi polygons (_Vector/Geometry Tools/Voronoi polygons_)
 5. Estimating population for service areas (Voronoi polygons) from district data
    - Cuting districts overlayed by each Voronoi polygon: _Vector/Geoprocessing tools/Intersect_
+   - *Sidenote-when saving result of the intersect algorithm into Geopackage it is something necessary to delet FID column in the attribute table.
+   - 
 
 ## Useful links and resources
 
