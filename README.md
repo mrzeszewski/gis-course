@@ -32,7 +32,7 @@ What we will learn:
 2. Creating new attributes basing on existing values (_number of residents per one feature(kindergarten) using Field Calculator in Attribute Table_) 
 3. Calculating attribute values using object properties and geometries (_calculate area of the feature and population density using Field Calculator_)
 4. Creating service areas using Voronoi polygons (_Vector/Geometry Tools/Voronoi polygons_)
-5. 
+5. Estimating population for service areas (Voronoi polygons) from district data (_Vector/Geoprocessing tools/Intersect
 
 ## Useful links and resources
 
