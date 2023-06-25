@@ -35,9 +35,10 @@ What we will learn:
 5. Estimating population for service areas (Voronoi polygons) from district data. 
    - Cuting districts overlayed by each Voronoi polygon: _Vector/Geoprocessing tools/Intersect_
    - *Sidenote-when saving result of the intersect algorithm into Geopackage it is something necessary to delet FID column in the attribute table.
-   - It is neccessary to transfer population density and area from each district to each Voronoi polygon - we can do it by basing new values on how much of the district area is within each Voronoi. But we cannot do it through geometry predicates (Intersect/Within/Contains...etc) as they share borders. Instead we can transform polygons into points. Buy be aware that _Centroids_ are not enough as they can be positioned outside the shape (give it a try!). Instead we can use _Pole of Inaccesibility_
-   - 
-   - 
+   - It is neccessary to transfer population density and area from each district to each Voronoi polygon - we can do it by basing new values on how much of the district area is within each Voronoi. But we cannot do it through geometry predicates (Intersect/Within/Contains...etc) as they share borders. Instead we can transform polygons into points. Be aware that _Centroids_ are not enough as they can be positioned outside the shape (give it a try!). Instead we can use _Pole of Inaccesibility_ to give us a nice set of points.
+   - But **before** we calculate those points we need to have the population for those new polygons - calculate new area and then new population using population density. 
+   - Having points with data we can calculate this new values for Voronoi polygons we can use algorithm Join attributes by location(summary) to sum values of population from points and add it to polygons
+6. We now see which kindergarten serves the largest number of people. 
 
 ## Useful links and resources
 
