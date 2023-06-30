@@ -40,7 +40,7 @@ What we will learn:
    - Having points with data we can calculate this new values for Voronoi polygons we can use algorithm Join attributes by location(summary) to sum values of population from points and add it to polygons
 6. We now see which kindergarten serves the largest number of people.
 
-**```Task 2 (final): Group exercise. Create a map showing the best locations for new parcel lockers. Start by locating existing ones from OSM(amenity:parcel_locker). Think what factors shold be included? What results do you want? Your solution need to take into account at least two spatial criteria```**
+**```Task 2 (final): Group exercise. Create a map showing the best locations for new parcel lockers. Start by locating existing ones from OSM(amenity:parcel_locker). Think what factors shold be included? What results do you want? Your solution need to take into account at least two spatial criteria. UPDATE: PLEASE ALSO CREATE A SHORT STEP BY STEP DESCRIPTION OF WHAT YOU HAVE DONE```**
 
 
 
