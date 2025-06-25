@@ -1,9 +1,9 @@
 # GIS course
-Here you will find data and description of exercises that we will be doing during our online and onsite meetings. Course will be updated as we will go further according to what we will be able to do. Course will be separated into thematic parts that not neccessarily correspond to separate meetings (we can go through two meetings in on or the other way around).
+Here you will find data and description of exercises that we will be doing during our meetings. Course will be updated as we will go further according to what we will be able to do. Course will be separated into thematic parts that not neccessarily correspond to separate meetings (we can go through two meetings in on or the other way around).
 
 ***A note:** most kinds of spatial and location based analysis can be treated as a puzzle with a more than one solution. It is often the case that our workflow, accuracy and precision of the analysis is determined by the quality of the data and its nature but it is also influenced by our skillset and even worldview. You do not need to know the fastest or best solution. In most cases you need an approximation that is good enough. Do not be afraid to experiment and choose freely from a wide array of tools and plugins at your disposal. **Have fun with GIS!***
 
-## Part 1 – Simple location analysis with buffers, object selection, counting points and real-world distances
+## Part 1  (Workshop 5) – Simple location analysis with buffers, object selection, counting points and real-world distances
 What we will learn:
 1. Getting data from Open Street Map (OSM) – using QuickOSM plugin in QGIS (_you should already know how to do it_).
 2. Checking the data and cliping it to the area of interest (_Vector/Geoprocessing tools/Clip_)
@@ -13,34 +13,11 @@ What we will learn:
 6. Storing basemaps and whole maps as raster files with georeferences for future use (_Save as image with world fil_e)
 7. Transforming real world questions into GIS abstracts (_an introduction to spatial analysis and the way we think about spatial problems_)
 8. Creating distance based buffers (_Vector/Geoprocessing tools/Buffer_)
-9. Using buffer polygons to find points and object that fulfill various criteria with two different tools (_1. Vector/Research Tool/Select by location; 2.Count points in polygon_)
-10. Create isochrones (_Catchments_) to approximate real-world distances (_Location Lab plugin_). You will need a free [OpenRouteService account](https://openrouteservice.org/)
-11. Bonus – create an interactive web map (_qgis2web plugin_)
+9. Using buffer polygons to find points and object that fulfill various criteria with three different tools (_1. Vector/Research Tool/Select by location; 2.Count points in polygon_)
+10. Create isochrones (_Catchments_) to approximate real-world distances (_OSR Tools plugin_). You will need a free [OpenRouteService account](https://openrouteservice.org/)
+11. Using isochrones check whether points are inside of them (and how many) using *Join attributes by location (summary)*
 
-**```Task 1: Group exercise. Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```**
-
-## Part 2 – Using remote data sources: WMS and WFS.
-What we will learn:
-1. Searching for remote data services and reading _GetCapabities_ outputs.
-2. Attaching remote WMS and WFS services to QGIS data sources.
-3. Using WMS as a basemap and using GetFeatureInfo function.
-4. Using WFS to download and save data.
-
-## Part 3 – Exploring location factors: estimating service area and population influence using geoprocessing tools. 
-What we will learn:
-1. Making visual analysis on objects (kindergartens) spatial density in districts (_Vector/Analysis Tools/Count points in polygons_)
-2. Creating new attributes basing on existing values (_number of residents per one feature(kindergarten) using Field Calculator in Attribute Table_) 
-3. Calculating attribute values using object properties and geometries (_calculate area of the feature and population density using Field Calculator_)
-4. Creating service areas using Voronoi polygons (_Vector/Geometry Tools/Voronoi polygons_)
-5. Estimating population for service areas (Voronoi polygons) from district data. 
-   - Cuting districts overlayed by each Voronoi polygon: _Vector/Geoprocessing tools/Intersect_
-   - *Sidenote-when saving result of the intersect algorithm into Geopackage it is something necessary to delet FID column in the attribute table.
-   - It is neccessary to transfer population density and area from each district to each Voronoi polygon - we can do it by basing new values on how much of the district area is within each Voronoi. But we cannot do it through geometry predicates (Intersect/Within/Contains...etc) as they share borders. Instead we can transform polygons into points. Be aware that _Centroids_ are not enough as they can be positioned outside the shape (give it a try!). Instead we can use _Pole of Inaccesibility_ to give us a nice set of points.
-   - But **before** we calculate those points we need to have the population for those new polygons - calculate new area and then new population using population density. 
-   - Having points with data we can calculate this new values for Voronoi polygons we can use algorithm Join attributes by location(summary) to sum values of population from points and add it to polygons
-6. We now see which kindergarten serves the largest number of people.
-
-**```Task 2 (final): Group exercise. Create a map showing the best locations for new parcel lockers. Start by locating existing ones from OSM(amenity:parcel_locker). Think what factors shold be included? What results do you want? Your solution need to take into account at least two spatial criteria. UPDATE: PLEASE ALSO CREATE A SHORT STEP BY STEP DESCRIPTION OF WHAT YOU HAVE DONE```**
+**```Task 1: Create a map showing fire emergency readiness of Kiel kindergartens using locations of fire  hydrants and fire stations. Assume that an object is close enough to fire hydrant if it is within 100 meters and close enough to fire station when it is within 5 minutes travel distance.```**
 
 
 
